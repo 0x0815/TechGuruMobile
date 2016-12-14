@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D263C3A71E01E823002C0847 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263C3A61E01E823002C0847 /* Case.swift */; };
+		D263C3A91E01ED76002C0847 /* parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263C3A81E01ED76002C0847 /* parser.swift */; };
+		D263C3AB1E0204AB002C0847 /* caseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D263C3AA1E0204AB002C0847 /* caseCell.swift */; };
 		D2F786441E01CEB800FB8049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F786431E01CEB800FB8049 /* AppDelegate.swift */; };
 		D2F786461E01CEB800FB8049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F786451E01CEB800FB8049 /* ViewController.swift */; };
 		D2F786491E01CEB800FB8049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F786471E01CEB800FB8049 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D263C3A61E01E823002C0847 /* Case.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
+		D263C3A81E01ED76002C0847 /* parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parser.swift; sourceTree = "<group>"; };
+		D263C3AA1E0204AB002C0847 /* caseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = caseCell.swift; sourceTree = "<group>"; };
 		D2F786401E01CEB800FB8049 /* TechGuru Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TechGuru Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F786431E01CEB800FB8049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2F786451E01CEB800FB8049 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,11 +60,14 @@
 		D2F786421E01CEB800FB8049 /* TechGuru Mobile */ = {
 			isa = PBXGroup;
 			children = (
-				D2F786431E01CEB800FB8049 /* AppDelegate.swift */,
 				D2F786451E01CEB800FB8049 /* ViewController.swift */,
+				D263C3A61E01E823002C0847 /* Case.swift */,
+				D263C3A81E01ED76002C0847 /* parser.swift */,
+				D263C3AA1E0204AB002C0847 /* caseCell.swift */,
+				D2F786431E01CEB800FB8049 /* AppDelegate.swift */,
 				D2F786471E01CEB800FB8049 /* Main.storyboard */,
-				D2F7864A1E01CEB800FB8049 /* Assets.xcassets */,
 				D2F7864C1E01CEB800FB8049 /* LaunchScreen.storyboard */,
+				D2F7864A1E01CEB800FB8049 /* Assets.xcassets */,
 				D2F7864F1E01CEB800FB8049 /* Info.plist */,
 			);
 			path = "TechGuru Mobile";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D263C3A91E01ED76002C0847 /* parser.swift in Sources */,
+				D263C3A71E01E823002C0847 /* Case.swift in Sources */,
 				D2F786461E01CEB800FB8049 /* ViewController.swift in Sources */,
+				D263C3AB1E0204AB002C0847 /* caseCell.swift in Sources */,
 				D2F786441E01CEB800FB8049 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
